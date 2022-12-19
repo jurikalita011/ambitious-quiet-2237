@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    color: inherit;
+}
+#container{
+    width:80%;
+    margin: auto;
+}
+nav{
+        display: flex;
+        height: 60px;
+        background-color:white;
+        color:gray;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 25px;
+    }
+    nav button{
+        border: 0px;
+        background-color: white;
+        margin: 15px 15px;
+    }
+    nav>div:nth-child(1)>button{
+        color: black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    }
+    nav>div:nth-child(2)>button{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: gray;
+        font-size: 12px;
+    }
+    #header img:nth-child(1){
+        width: 30%;
+        display: block;
+        margin: auto;
+    }
+    nav>div:nth-child(3){
+        display: flex;
+    }
+    #header>div{
+        display: flex;
+        padding: 40px 40px;
+    }
+    #header>div>img:nth-child(1){
+        display: block;
+        width: 270px;
+        box-sizing: inherit;
+        border: 0px;
+    }
+    #header>div button{
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 0px;
+        background-color: white;
+    }
+    #header>div img:nth-child(2){
+        width: 35px;
+    }
+    h6{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        padding: 20px 20px;
+        }
+        #banner>div:nth-child(1)>div:nth-child(1){
+            position: relative;
+        }
+        #banner>div:nth-child(1)>div:nth-child(2){
+            position: absolute;
+            top: 720px;
+            left: 380px;
+        }
+        #banner>div:nth-child(2)>div:nth-child(1){
+            position: relative;
+        }
+        #banner>div:nth-child(2)>div:nth-child(2){
+            position: absolute;
+            top: 720px;
+            right: 380px;
+        }
+        #banner2>div:nth-child(1){
+            position: relative;
+        }
+        #banner2>div:nth-child(2){
+            position: absolute;
+            top: 1000px;
+            right: 0px;
+            left: 0px;
+           
+        }
+        #banner,#banner3{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            margin: auto;
+            padding: 20px 0px;
+            gap: 20px;
+        }
+        #banner img,#banner3 img{
+            display: block;
+        width: 100%;
+        }
+        #banner h6,#banner3 h6{
+            color:white;
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 57px;
+            padding: 10px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+            }
+            #banner button{
+                width: 120px;
+                height: 40px;
+                display: block;
+                margin: auto;
+                padding: 5px 10px;
+                color:black;
+                background-color: white;
+                border: 0px;
+                }
+                
+                #banner2 img{
+                    display: block;
+                    margin: auto;
+                width: 100%;
+                }
+                #banner2 h6{
+                    color:black;
+                    text-align: center;
+                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 60px;
+                    padding: 10px 10px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 100;
+                    padding-bottom: 30px;
+                    }
+                    #banner2 button{
+                        width: 120px;
+                        height: 40px;
+                        display: block;
+                        margin: auto;
+                        padding: 5px 10px;
+                        color:white;
+                        background-color: black;
+                        border: 0px;
+                        }
+                        #banner3 button{
+                            width: 120px;
+                        height: 40px;
+                        display: block;
+                        margin: auto;
+                        padding: 5px 10px;
+                        color:white;
+                        background-color:black;
+                        border: 0px;
+                        }
+                        #banner3>div:nth-child(1){
+                            background-color:#FFCA28;
+                        }
+                        #banner3>div:nth-child(1) h6:nth-child(1){
+                            color: #EC407A;
+                            font-size: 50px;
+                            padding-bottom: 0px;
+                        }
+                        #banner3>div:nth-child(1) h6:nth-child(2){
+                            color: #EC407A;
+                            font-size: 90px;
+                            font-weight: 500;
+                            padding-top: 0px;
+                        }
+                        #banner3>div:nth-child(1) p:nth-child(3){
+                            text-align: center;
+                            color: black;
+                            font-size: 17px;
+                        }
+                        #banner3>div:nth-child(1) p:nth-child(4){
+                            text-align: center;
+                            color:#EC407A ;
+                            font-size: 27px;
+                            padding: 15px 0px;
+                        }
+                        #banner3>div:nth-child(2)>div:nth-child(1){
+                            position: relative;
+                        }
+                        #banner3>div:nth-child(2)>div:nth-child(2){
+                            position: absolute;
+                            top: 1400px;
+                            right: 200px;
+                        }
+                        
+        #about p,#about h3{
+        text-align: center;
+        padding: 10px 0px;
+        
+        }
+        #about{
+            width: 80%;
+            margin: auto;
+        }
+        #about h6,#about p{
+            text-align: justify;
+            padding-left: 5px;
+        }
+        #playstore h3{
+        text-align: justify;
+        margin-top: 20px;
+        }
+        #playstore>div{
+        width: 180px;
+        display: flex;
+        margin: auto;
+        padding: 20px 0px;
+        }
+        #playstore img{
+        width: 100px;
+        display: block;
+        }
+        #bullet{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 30px;
+            margin: auto;
+            padding: 20px 0px;
+        }
+        #bullet>div:nth-child(1){
+            padding-left: 40px;
+        }
+        #bullet h4{
+            text-align: justify;
+            padding-bottom: 20px;
+        }
+        #footer{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            margin: auto;
+            gap: 5px;
+        }
+        #footer h6{
+            text-align: left;
+            padding-left: 5px;
+            font-size: 17px;
+            padding-bottom: 5px;
+        }
+        #footer p:nth-child(7),#footer p:nth-child(3),#footer p:nth-child(5){
+            padding-left: 10px;
+            font-weight: 600;
+            color: gray;
+        }
+        #footer p{
+            padding: 10px 0px;
+        }
+        #footer ul{
+            list-style-type: none;
+            color: gray;
+            font-size: 17px;
+        }
+        li:hover{
+            cursor:pointer;
+        }
+        li{
+            padding: 7px 0px;
+        }
+        #footer input{
+            margin:10px 0px;
+        }
+        #slideshow p{
+            color: red;
+            text-align: center;
+        }
+        

@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    color: inherit;
+}
+#container{
+    width:80%;
+    margin: auto;
+}
+nav{
+        display: flex;
+        height: 60px;
+        background-color:white;
+        color:gray;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 25px;
+    }
+    nav button{
+        border: 0px;
+        background-color: white;
+        margin: 15px 15px;
+    }
+    nav>div:nth-child(1)>button{
+        color: black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    }
+    nav>div:nth-child(2)>button{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: gray;
+        font-size: 12px;
+    }
+    #header img:nth-child(1){
+        width: 30%;
+        display: block;
+        margin: auto;
+    }
+    nav>div:nth-child(3){
+        display: flex;
+    }
+    #header>div{
+        display: flex;
+        padding: 40px 40px;
+    }
+    #header>div>img:nth-child(1){
+        display: block;
+        width: 270px;
+        box-sizing: inherit;
+        border: 0px;
+    }
+    #header>div button{
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 0px;
+        background-color: white;
+    }
+    #header>div img:nth-child(2){
+        width: 35px;
+    }
+    h6{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        padding: 20px 20px;
+        }
+        #about p,#about h3{
+        text-align: center;
+        padding: 10px 0px;
+        
+        }
+        #banner img{
+            display: block;
+            width: 100%;
+            }
+        #banner h4,#banner h1{
+            color:white;
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #banner h4{
+            font-size: 20px;
+            padding: 10px 10px;
+            }
+            #banner h1{
+            font-size: 50px;
+            padding: 5px 10px;
+            }
+            #banner button{
+            width: 200px;
+            display: block;
+            margin: auto;
+            padding: 5px 10px;
+            color: black;
+            background-color: white;
+            border: 0px;
+            }
+            #banner>div:nth-child(1){
+                position: relative;
+            }
+            #banner>div:nth-child(2){
+                position: absolute;
+                top: 550px;
+                right: 150px;
+                left: 150px;
+            }
+            #banner2{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                margin: auto;
+                padding: 20px 0px;
+            }
+            #banner2 img{
+                display: block;
+            width: 100%;
+            }
+            #banner2>div:nth-child(1){
+                background-color: black;
+            
+            }
+            #banner2>div:nth-child(1) h6,#banner2>div:nth-child(1) p{
+                color:white;
+                text-align: left;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #banner2>div:nth-child(1) h6{
+                font-size: 70px;
+                padding: 10px 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 200;
+                }
+            #banner2>div:nth-child(1) p{
+                    font-size: 17px;
+                    padding: 5px 10px;
+            }
+            #banner2>div:nth-child(1) button{
+                width: 120px;
+                height: 40px;
+                display: block;
+                margin: left;
+                padding: 5px 10px;
+                color:black;
+                background-color: white;
+                border: 0px;
+                margin: 30px 18px;
+                }
+                #banner2>div:nth-child(1)>div{
+                    padding: 180px 0px 180px 100px;
+                } 
+
+                #banner3{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    margin: auto;
+                    padding: 20px 0px;
+                }
+                #banner3 img{
+                    display: block;
+                width: 100%;
+                }
+                #banner3>div:nth-child(2){
+                    background-color: black;
+                
+                }
+                #banner3>div:nth-child(2) h6,#banner3>div:nth-child(2) p{
+                    color:white;
+                    text-align: left;
+                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+                #banner3>div:nth-child(2) h6{
+                    font-size: 70px;
+                    padding: 10px 10px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 200;
+                    }
+                #banner3>div:nth-child(2) p{
+                        font-size: 17px;
+                        padding: 5px 10px;
+                }
+                #banner3>div:nth-child(2) button{
+                    width: 120px;
+                    height: 40px;
+                    display: block;
+                    margin: left;
+                    padding: 5px 10px;
+                    color:black;
+                    background-color: white;
+                    border: 0px;
+                    margin: 30px 18px;
+                    }
+                    #banner3>div:nth-child(2)>div{
+                        padding: 180px 0px 180px 100px;
+                    } 
+        #about{
+            width: 80%;
+            margin: auto;
+        }
+        #about h6{
+            text-align: left;
+        }
+        #playstore h3{
+        text-align: center;
+        margin-top: 20px;
+        }
+        #playstore>div{
+        width: 180px;
+        display: flex;
+        margin: auto;
+        padding: 20px 0px;
+        }
+        #playstore img{
+        width: 100px;
+        display: block;
+        }
+        #bullet{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 30px;
+            margin: auto;
+            padding: 20px 0px;
+        }
+        #bullet>div:nth-child(1){
+            padding-left: 40px;
+        }
+        #bullet h4{
+            text-align: justify;
+            padding-bottom: 20px;
+        }
+        #footer{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            margin: auto;
+            gap: 5px;
+        }
+        #footer h6{
+            text-align: left;
+            padding-left: 5px;
+            font-size: 17px;
+            padding-bottom: 5px;
+        }
+        #footer p:nth-child(7),#footer p:nth-child(3),#footer p:nth-child(5){
+            padding-left: 10px;
+            font-weight: 600;
+            color: gray;
+        }
+        #footer p{
+            padding: 10px 0px;
+        }
+        #footer ul{
+            list-style-type: none;
+            color: gray;
+            font-size: 17px;
+        }
+        li:hover{
+            cursor:pointer;
+        }
+        li{
+            padding: 7px 0px;
+        }
+        #footer input{
+            margin:10px 0px;
+        }
+        #slideshow p{
+            color: red;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        
