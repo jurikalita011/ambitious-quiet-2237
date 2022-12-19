@@ -1,0 +1,107 @@
+[
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/06/P00621007_b1.jpg",
+        "brand":"MAGDA BUTRYM",
+        "name":"Single-breasted cotton-blend blazer",
+        "color":"White",
+        "price":2325   
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/f2/P00427619_d2.jpg",
+        "brand":"CELINE EYEWEAR",
+        "name":"Flat-top sunglasses",
+        "color":"Black",
+        "price":330   
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/3e/P00765371_b1.jpg",
+        "brand":"BOTTEGA VENETA",
+        "name":"Jodie Mini leather tote bag",
+        "color":"Golden",
+        "price":2300 
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/97/P00751749_b1.jpg",
+        "brand":"VALENTINO",
+        "name":"Toile Iconographe jacquard minidress",
+        "color":"Black",
+        "price":3200  
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/7c/P00744163_b1.jpg",
+        "brand":"ALEX PERRY",
+        "name":"Harland satin crêpe gown",
+        "color":"Orange",
+        "price":2500  
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/e9/P00660000_d2.jpg",
+        "brand":"LOEWE",
+        "name":"Nail Polish leather sandals",
+        "color":"Black",
+        "price":890  
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/ec/P00754893_d2.jpg",
+        "brand":"VALENTINO",
+        "name":"VLogo crystal-embellished earrings",
+        "color":"Golden",
+        "price":500  
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/d2/P00753408_b1.jpg",
+        "brand":"ZIMMERMANN",
+        "name":"High Tide silk linen organza minidress",
+        "color":"Orange",
+        "price":1600  
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/f1/P00749246_b1.jpg",
+        "brand":"ROTATE BIRGER CHRISTENSEN",
+        "name":"Ruffle-trimmed jumpsuit",
+        "color":"Pink",
+        "price":430  
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/e4/P00724075_b1.jpg",
+        "brand":"VALENTINO GARAVANI",
+        "name":"Romanstud Mini Crystal crossbody",
+        "color":"Pink",
+        "price":3400  
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/8f/P00759190_d2.jpg",
+        "brand":"GIVENCHY",
+        "name":"G Lock leather platform pumps",
+        "color":"Black",
+        "price":895   
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/34/P00767554_b1.jpg",
+        "brand":"ALEXANDER MCQUEEN",
+        "name":" Cropped denim jacket",
+        "color":"Blue",
+        "price":1790  
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/b9/P00759912_b1.jpg",
+        "brand":"THE ROW",
+        "name":"Azzedina wool and mohair jacket",
+        "color":"Beige",
+        "price":5500 
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/57/P00743861_b1.jpg",
+        "brand":"GUCCI",
+        "name":"Ophidia Small GG Supreme shoulder bag",
+        "color":"Grey",
+        "price":980   
+    },
+    {
+        "image":"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/4f/P00760274_d2.jpg",
+        "brand":"BOTTEGA VENETA",
+        "name":"Mostra croc-embossed leather pumps",
+        "color":"Beige",
+        "price":1150   
+    }
+]

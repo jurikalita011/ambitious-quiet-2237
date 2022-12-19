@@ -8,7 +8,6 @@
 #container{
     width:80%;
     margin: auto;
-    border: 2px solid royalblue;
 }
 nav{
         display: flex;
@@ -60,109 +59,7 @@ nav{
     #header>div img:nth-child(2){
         width: 35px;
     }
-
-   
-#banner{
-margin-top: 20px;
-gap: 20px 20px;
-display: grid;
-grid-template-columns: repeat(1,1fr);
-width: 100%;
-}
-#banner>div{
-gap: 20px;
-}
-#banner img{
-display: block;
-width: 100%;
-}
-
-#banner>div:nth-child(2) h4,#banner>div:nth-child(2) h1{
-color:brown;
-text-align: center;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#banner>div:nth-child(2) h4{
-font-size: 20px;
-padding: 10px 10px;
-}
-#banner>div:nth-child(2) h1{
-font-size: 50px;
-padding: 5px 10px;
-}
-#banner>div:nth-child(2) button{
-width: 200px;
-display: block;
-margin: auto;
-padding: 5px 10px;
-color: black;
-background-color: white;
-border: 0px;
-}
-#banner>div:nth-child(3){
-background-color: #F5F5F5;
-padding: 40px 40px;
-}
-#banner>div:nth-child(3) h4,#banner>div:nth-child(3) h1{
-color:black;
-/* border:2px solid blue; */
-text-align: center;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-#banner>div:nth-child(3) h4{
-font-size: 15px;
-padding: 10px 10px;
-}
-#banner>div:nth-child(3) h1{
-font-size: 30px;
-padding: 5px 10px;
-}
-#banner>div:nth-child(3) button{
-width: 150px;
-display: block;
-margin: auto;
-padding: 5px 10px;
-color:white;
-background-color: black;
-border: 0px;
-}
-#pro{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-gap: 20px;
-padding-bottom: 30px;
-}
-#pro img{
-width: 100%;
-}
-
-#pro>div:nth-child(2)>div{
-height: 100%;
-margin: auto;
-
-}
-#pro>div:nth-child(2){
-display: grid;
-grid-template-columns: repeat(1,1fr);
-
-}
-#pro button{
-display: block;
-margin: auto;
-color: white;
-background-color: black;
-margin-top: 30px;
-}
-#pro h3{
-display:block;
-margin: auto;
-text-align: center;
-font-family:Arial, Helvetica, sans-serif;
-font-weight: 200;
-font-size: 30px;
-width: 380px;
-padding-bottom: 20px;
-}
+    
 h6{
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
@@ -173,7 +70,6 @@ padding: 20px 20px;
 #about p,#about h3{
 text-align: center;
 padding: 10px 0px;
-
 
 }
 #about{
@@ -246,7 +142,7 @@ li{
     margin:10px 0px;
 }
 #slideshow{
-    position:relative; 
+    position:relative;
     height:70px;
 }
 #slideshow p{
@@ -266,10 +162,16 @@ display: none;
 position: absolute;
 background-color: #f1f1f1;
 min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 z-index: 1;
 }
 
-
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
 .dropbtn {
     padding: 5px;
     font-size: 15px;
@@ -280,4 +182,83 @@ z-index: 1;
     top: 0;
     width: 100%;
   }
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+button:hover{
+    cursor: pointer;
+}
+#wishList-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    margin: auto;
+    gap:20px 20px;
+    padding: 20px 0px;
+    background-color: white;
+  }
+  #wishList-container>div{
+    padding: 10px;
+  }
+  #wishList-container>div:hover{
+    transform: translateY(-1rem)
+  }
+  #wishList-container>div>button:nth-child(1){
+    color: black;
+    background-color:white;
+    border: 0px;
+    font-size: 30px;
+    padding-left: 240px;
+  }
+
+  #wishList-container>div>img{
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+  #wishList-container h6, #product-container p, #product-container h3{
+    padding: 5px 0px;
+  }
+  #wishList-container h6{
+    font-size: 17px;
+  }
+  #wishList-container p{
+    font-size: 19px;
+    text-align: center;
+  }
+  #wishList-container h3{
+    text-align: center;
+  }
+ 
+  .del1{
+    display:block;
+    background-color:white;
+    color: black;
+    border: none;
+    font-size: 14px;
+    margin: auto;
+  }
+  .del1:hover{
+    color: red;
+  }
+  .cart1{
+    display:block;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: right;
+    font-size: 18px;
+    padding: 7px 7px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .cart1:hover{
+    color: gray;
+  }
+  
+
 

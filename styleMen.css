@@ -2,11 +2,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
+    text-decoration: none !important;
+    color: inherit;
+
 }
 #container{
     width:80%;
     margin: auto;
-    border: 2px solid royalblue;
+
+
 }
 nav{
         display: flex;
@@ -46,7 +51,6 @@ nav{
     #header>div>img:nth-child(1){
         display: block;
         width: 270px;
-        border: 2px solid red;
         box-sizing: inherit;
         border: 0px;
     }
@@ -74,11 +78,9 @@ nav{
         #banner img{
             display: block;
             width: 100%;
-            border: 2px solid greenyellow;
             }
         #banner h4,#banner h1{
-            color:brown;
-            border:2px solid blue;
+            color:white;
             text-align: center;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
@@ -99,6 +101,17 @@ nav{
             background-color: white;
             border: 0px;
             }
+
+            #banner>div:nth-child(1){
+                position: relative;
+            }
+            #banner>div:nth-child(2){
+                position: absolute;
+                top: 550px;
+                right: 150px;
+                left: 150px;
+            }
+
             #banner2{
                 display: grid;
                 grid-template-columns: repeat(2,1fr);
@@ -142,7 +155,7 @@ nav{
                 #banner2>div:nth-child(1)>div{
                     padding: 180px 0px 180px 100px;
                 } 
-                /* jjhkjhj */
+
                 #banner3{
                     display: grid;
                     grid-template-columns: repeat(2,1fr);
@@ -255,4 +268,11 @@ nav{
         #footer input{
             margin:10px 0px;
         }
+
+        #slideshow p{
+            color: red;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
         
