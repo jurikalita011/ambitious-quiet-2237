@@ -8,6 +8,7 @@
 #container{
     width:80%;
     margin: auto;
+    border: 2px solid royalblue;
 }
 nav{
         display: flex;
@@ -59,6 +60,7 @@ nav{
     #header>div img:nth-child(2){
         width: 35px;
     }
+
    
 #banner{
 margin-top: 20px;
@@ -137,6 +139,7 @@ width: 100%;
 #pro>div:nth-child(2)>div{
 height: 100%;
 margin: auto;
+
 }
 #pro>div:nth-child(2){
 display: grid;
@@ -170,6 +173,7 @@ padding: 20px 20px;
 #about p,#about h3{
 text-align: center;
 padding: 10px 0px;
+
 
 }
 #about{
@@ -276,13 +280,4 @@ z-index: 1;
     top: 0;
     width: 100%;
   }
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-button:hover{
-    cursor: pointer;
-}
-
 

@@ -2,12 +2,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
     text-decoration: none !important;
     color: inherit;
+
 }
 #container{
     width:80%;
     margin: auto;
+
+
 }
 nav{
         display: flex;
@@ -97,6 +101,7 @@ nav{
             background-color: white;
             border: 0px;
             }
+
             #banner>div:nth-child(1){
                 position: relative;
             }
@@ -106,6 +111,7 @@ nav{
                 right: 150px;
                 left: 150px;
             }
+
             #banner2{
                 display: grid;
                 grid-template-columns: repeat(2,1fr);
@@ -262,9 +268,11 @@ nav{
         #footer input{
             margin:10px 0px;
         }
+
         #slideshow p{
             color: red;
             text-align: center;
             padding-bottom: 10px;
         }
+
         
